@@ -3,7 +3,7 @@ import { useEffect, useState, useRef } from 'react';
 import { Chess } from 'chess.js';
 import { Chessboard } from 'react-chessboard';
 import { io } from 'socket.io-client';
-const socket = io(import.meta.env.VITE_BACKEND_URL || "http://localhost:3000");
+const socket = io(import.meta.env.VITE_BACKEND_URL || "https://chess-backend-uv6k.onrender.com/");
 
 const App = () => {
 
