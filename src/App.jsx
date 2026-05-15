@@ -3,7 +3,7 @@ import { useEffect, useState, useRef } from 'react';
 import { Chess } from 'chess.js';
 import { Chessboard } from 'react-chessboard';
 import { io } from 'socket.io-client';
-const socket = io("http://localhost:3000");
+const socket = io("https://chess-backend-theta.vercel.app/");
 
 const App = () => {
 
